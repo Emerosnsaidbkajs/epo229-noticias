@@ -1,0 +1,157 @@
+echo "# epo229-noticias" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Emerosnsaidbkajs/epo229-noticias.git
+git push -u origin main
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epo Noticias</title>
+    <style>
+        body {
+            font-family: Arial Narrow, sans-serif ;
+            background-color: #800020; /* Color vino */
+            color: pink ;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #400010; /* Color vino más oscuro */
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #5b0c20; /* Color vino intermedio */
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .content {
+            padding: 20px;
+        }
+        footer {
+            background-color: #400010;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Epo Noticias</h1>
+    </header>
+    <nav>
+        <a href="Inteligencia-Artificial.html">Inteligencia Artificial</a>
+        <a href="deportes.html">Deportes</a>
+        <a href="cultura.html">Cultura</a>
+    </nav>
+    <div class="content">
+        <h2>Bienvenido a Epo Noticias.En este sitio encontraras las mayores novedades sobre cuencia y tecnologia en mexico iguam conoceras mas sobre la epo 229 y su cultura  </h2>
+        <p>Selecciona una sección para leer más.</p>
+        <!-- Imagen agregada al final de la página -->
+        <img src="inicio.jpeg" alt="Imagen de Bienvenida">
+    </div>
+    <footer>
+        <p>&copy; Emerson Said Carapia Rosales2024 Epo Noticias</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inteligencia Artificial en México</title>
+    <style>
+        body {
+            font-family: Arial Narrow, sans-serif;
+            background-color: #800020; /* Color vino */
+            color: pink;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #400010; /* Color vino más oscuro */
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #5b0c20; /* Color vino intermedio */
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .content {
+            padding: 20px;
+        }
+        footer {
+            background-color: #400010;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Epo Noticias</h1>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="deportes.html">Deportes</a>
+        <a href="cultura.html">Cultura</a>
+    </nav>
+    <div class="content">
+        <h2>Inteligencia Artificial en México</h2>
+        <p>La inteligencia artificial (IA) ha tenido un crecimiento significativo en México en los últimos años. Con el aumento de la tecnología y la adopción de IA en diversos sectores, desde la educación hasta la salud, México está en el camino hacia la transformación digital. Este avance ha sido impulsado por iniciativas gubernamentales, universidades y el sector privado.</p>
+<p>La inteligencia artificial, que alguna vez fue solo
+un tema de ciencia ficción, ahora es una realidad
+que está cambiando la forma en que las
+empresas mexicanas operan y cómo los
+ciudadanos interactúan con la tecnología. La IA
+está siendo integrada en una amplia gama de
+aplicaciones, desde chatbots que mejoran la
+atención al cliente hasta sistemas avanzados de
+análisis predictivo que ayudan a las empresas a
+anticiparse a las tendencias del mercado.
+Uno de los desarrollos más emocionantes en México es el uso de la IA en el sector
+gubernamental. Proyectos como los sistemas de vigilancia inteligente en Ciudad de México,
+que utilizan cámaras equipadas con IA para detectar incidentes en tiempo real, están
+mejorando significativamente la seguridad pública. Estos sistemas no solo ayudan a
+prevenir el crimen, sino que también proporcionan a las autoridades una herramienta
+poderosa para la gestión urbana.</p>
+        <img src="ia-mexico.jpg" alt="Inteligencia Artificial en México">
+    </div>
+    <footer>
+        <p>&copy; 2024 Epo Noticias</p>
+    </footer>
+</body>
+</html>
